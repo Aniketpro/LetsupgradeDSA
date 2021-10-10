@@ -1,0 +1,24 @@
+a = 1
+b = 1
+while(b <= n)
+{
+    a += 1;
+    b += a;
+    printf("Hi LetsUpgraders");
+}
+
+The code will run for each value of b
+till it reaches n
+
+It will run for valuse like 1,3,6,10,15,21,...
+
+Suppose it runs for some time k
+So O(k)
+Here, k = n-c
+c : constant number of terms that will b
+skipped between 1 to n
+
+So, ignoring the constant
+T(n) = O(n) 
+
+
